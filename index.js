@@ -110,7 +110,7 @@ function init() {
 
 
 ## Questions
-For any additional questions, please reach out to me at **${github}**](https://github.com/${github}) or by email at ${email}.
+For any additional questions, please reach out to me at **${github}** (https://github.com/${github}) or by email at ${email}.
     `;
 
     writeToFile('README.md', readme);
