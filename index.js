@@ -55,6 +55,15 @@ const questions = [
     message: 'What is your email address?'
   }
 ];
+//Function created to make sure title is capitalized
+function capitalizeString(str) {
+  let words = str.split(" ");
+  let capitalizedWords = [];
+  for (let word of words) {
+    capitalizedWords.push(word[0].toUpperCase() + word.slice(1).toLowerCase());
+  }
+  return capitalizedWords.join(" ");
+}
 
 function init() {
   inquirer.prompt(questions).then(({ title, description, installation, usage, license, contributing, test, github, email }) => {
@@ -75,6 +84,8 @@ function init() {
         break;
     }
 
+    title = capitalizeString(title);
+
     let readme =
 `${licenseBadge}
 
@@ -85,6 +96,8 @@ function init() {
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
+- [Test](#test)
 - [Questions](#questions)
 
 ## Description
@@ -107,7 +120,6 @@ function init() {
   \`\`\`
   ${test}
   \`\`\`
-
 
 ## Questions
 For any additional questions, please reach out to me at **${github}** (https://github.com/${github}) or by email at ${email}.
