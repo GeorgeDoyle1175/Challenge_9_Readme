@@ -57,10 +57,10 @@ const questions = [
 ];
 
 function init() {
-  inquirer.prompt(questions).then(answers => {
+  inquirer.prompt(questions).then(({ title, description, installation, usage, license, contributing, test, github, email }) => {
     let licenseBadge = '';
     let licenseLink = '';
-    switch (answers.license) {
+    switch (license) {
       case 'Apache License v2':
         licenseBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
         licenseLink = 'https://opensource.org/licenses/Apache-2.0';
@@ -75,9 +75,10 @@ function init() {
         break;
     }
 
-    let readme = `${licenseBadge}
+    let readme =
+`${licenseBadge}
 
-# ${answers.title}
+# ${title}
 
 ## Table of Contents
 - [Description](#description)
@@ -87,30 +88,30 @@ function init() {
 - [Questions](#questions)
 
 ## Description
-${answers.description}
+  ${description}
 
 ## Installation
-${answers.installation}
+  ${installation}
 
 ## Usage
-${answers.usage}
+  ${usage}
 
 ## License
-This project uses the ${answers.license} license, available under [${licenseLink}](${licenseLink}).
+  This project uses the ${license} license, available under [${licenseLink}](${licenseLink}).
 
 ## Contributing
-${answers.contributing}
+  ${contributing}
 
 ## Tests
-To test this code enter ${answers.test} in the command line when are in the folder with the index.js file.
-\`\`\`
-${answers.test}
-\`\`\`
+  To test this code enter ${test} in the command line when are in the folder with the index.js file.
+  \`\`\`
+  ${test}
+  \`\`\`
 
 
-  ## Questions
-  For any additional questions, please reach out to me at [${answers.github}](https://github.com/${answers.github}) or by email at ${answers.email}.
-  `;
+## Questions
+For any additional questions, please reach out to me at **${github}**](https://github.com/${github}) or by email at ${email}.
+    `;
 
     writeToFile('README.md', readme);
   });

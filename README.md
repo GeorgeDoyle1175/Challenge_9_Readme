@@ -1,6 +1,6 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Patrick's Project
+# hajsfgsdfasd
 
 ## Table of Contents
 - [Description](#description)
@@ -10,25 +10,26 @@
 - [Questions](#questions)
 
 ## Description
-This is project is the bomb
+  bhasjdbfjksdabvkasdbcvkjabsdcjkbsadjkcadsbckjds  nadjhckjdhvklasdhvjkasdhvjkshvksjhvasvakdvhadkjhvskjvhk hadsjkfhaskjhvsajkhvaskjhaskhakjdhajksdh
 
 ## Installation
-install quick
+  ajkdhfkjadhfkjdhfkjdhfkbadvksbdckjnkcjnajkncandskhcnsdckhndsjasdc ahsdkjhasdkfhasjdfhsakjdhf
 
 ## Usage
-to better oneself
+  hjksdhfkadhfkjhdsfkjsdfkhsdkfhsdjfhsdkjfh
 
 ## License
-This project uses the Apache License v2 license, available under [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0).
+  This project uses the MIT License license, available under [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 ## Contributing
+  hjgfjgfufggj hvjfgjhghg hgvhjgjhg
 
 ## Tests
-```
-node test
-```
+  To test this code enter node index -r -f "Get it ready" in the command line when are in the folder with the index.js file.
+  ```
+  node index -r -f "Get it ready"
+  ```
 
 
-  ## Questions
-  For any additional questions, please reach out to me at [yesthisgo](https://github.com/yesthisgo) or by email at wheredoigo.
-  
+## Questions
+For any additional questions, please reach out to me at **letsgoto the score** (https://github.com/letsgoto the score) or by email at patrick@gmail.com.
