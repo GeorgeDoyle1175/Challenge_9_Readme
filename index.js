@@ -42,7 +42,7 @@ const questions = [
   {
     name: 'test',
     type: 'input',
-    message: 'What should you enter into the command line to test this application?'
+    message: 'What should you enter into the command line to test this project?'
   },
   {
     name: 'github',
