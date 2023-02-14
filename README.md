@@ -1,6 +1,6 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Nodee Jhssnnn Lkonnaamm
+# Example
 
 ## Table of Contents
 - [Description](#description)
@@ -12,26 +12,26 @@
 - [Questions](#questions)
 
 ## Description
-  
+  Lopim upmis hjased hjahjsd aghjask aghjasgh gasg gahsghj aghs
 
 ## Installation
-  
+  install
 
 ## Usage
-  
+  entertainment
 
 ## License
-  This project uses the Apache License v2 license, available under [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0).
+  This project uses the MIT License license, available under [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 ## Contributing
-  
+  Everyone
 
 ## Tests
-  To test this code enter  in the command line when are in the folder with the index.js file.
+  To test this code enter npm test  in the command line when are in the folder with the index.js file.
   ```
-  
+  npm test 
   ```
 
 ## Questions
-For any additional questions, please reach out to me at **** (https://github.com/) or by email at .
+For any additional questions, please reach out to me at **Georgedoyle1175** (https://github.com/Georgedoyle1175) or by email at doyle1175@gmail.com.
     

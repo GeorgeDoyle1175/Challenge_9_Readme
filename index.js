@@ -42,7 +42,7 @@ const questions = [
   {
     name: 'test',
     type: 'input',
-    message: 'What should you enter into the command line to test this project?'
+    message: 'What should you enter into the command line to test this application?'
   },
   {
     name: 'github',
@@ -55,7 +55,7 @@ const questions = [
     message: 'What is your email address?'
   }
 ];
-//Function created to make sure title is capitalized
+//Function created to make sure title is capitilized
 function capitalizeString(str) {
   let words = str.split(" ");
   let capitalizedWords = [];
